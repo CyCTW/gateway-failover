@@ -1,6 +1,6 @@
 # Gateway Failover（初版）
 
-依「Gateway Failover 設計規格」實作的 C++20 初版。單執行緒、poll 驅動，所有時間來自 `Clock`，
+依「[Gateway Failover 設計規格](docs/SPEC.md)」實作的 C++20 初版（文中的「§」皆指該規格的章節）。單執行緒、poll 驅動，所有時間來自 `Clock`，
 測試用模擬時鐘與 in-process Mock Broker，結果可重現。
 
 ## 建置與測試
